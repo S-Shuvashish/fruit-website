@@ -58,7 +58,7 @@
     <header>
         <!-- navigation  -->
         <nav>
-            <div class="navbar lg:bg-body-primary rounded-[600px] w-3/4 mx-auto
+            <div class="navbar md:bg-body-primary lg:bg-body-primary md:rounded-[600px] lg:rounded-[600px] w-3/4 mx-auto
             lg:mt-8 px-4 lg:px-14 items-center">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -78,36 +78,36 @@
                         </ul>
                     </div>
 
-                    <div class="navbar-center hidden lg:flex">
-                        <ul class="menu menu-horizontal px-1">
+                    <div class="navbar-center md:fex lg:flex">
+                        <ul class="menu menu-horizontal hidden md:fex lg:flex px-1">
                             <li class="text-white"><a>Home</a></li>
                             <li class="text-white"><a>About Us</a></li>
                             <li class="text-white"><a>Shop</a></li>
                             <li class="text-white"><a>All Fruits</a></li>
                         </ul>
                         <div>
-                            <a class="btn btn-ghost normal-case text-xl lg:text-white ml-32 mr-32"><img
+                            <a class="btn btn-ghost normal-case text-xl text-black lg:text-white lg:ml-32 lg:mr-32 visible"><img
                                     class="w-[50px] h-[50px]" src="images/logo.png" alt="">Fruit Burst</a>
                         </div>
                     </div>
-                    <div class="navbar-end">
+                    <div class="navbar-end hidden md:block lg:block">
                         <div class="form-control">
                             <input type="text" placeholder="Search"
-                                class="input input-bordered w-24 md:w-auto rounded-[50px] sm:hidden" />
+                                class="input input-bordered w-24 md:w-auto rounded-[50px]" />
                         </div>
                     </div>
                 </div>
         </nav>
 
         <!-- banner -->
-        <div class="carousel w-full mt-14 max-w-5xl h-[600px] w-[1440px] bg-cover mx-60 content-center">
+        <div class="carousel w-full mt-14 w-[335px] h-[200px] lg:h-auto lg:w-auto bg-cover lg:mx-60 content-center">
             <div id="slide1" class="carousel-item relative w-full">
-                <div class="hero min-h-screen" style="background-image: url(./images/banner1.png);">
+                <div class="hero max-h-screen lg:min-h-screen bg-cover" style="background-image: url(./images/banner1.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-8 font-light">We supply highly quality organic products</p>
+                            <h1 class="mb-5 text-xl lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <p class="mb-8 text-sm lg:text-lg font-light">We supply highly quality organic products</p>
                             <button class="btn bg-body-primary border-none text-white">Shop Now</button>
                         </div>
                     </div>
@@ -118,11 +118,11 @@
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full">
-                <div class="hero min-h-screen" style="background-image: url(./images/banner2.png);">
+                <div class="hero max-h-screen lg:min-h-screen bg-cover" style="background-image: url(./images/banner2.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <h1 class="mb-5 text-xl lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
                             <p class="mb-8 font-light">We supply highly quality organic products</p>
                             <button class="btn bg-body-primary border-none text-white">Shop Now</button>
                         </div>
@@ -134,11 +134,11 @@
                 </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full">
-                <div class="hero min-h-screen" style="background-image: url(./images/banner3.png);">
+                <div class="hero max-h-screen lg:min-h-screen bg-cover" style="background-image: url(./images/banner3.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <h1 class="mb-5 text-xl lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
                             <p class="mb-8 font-light">We supply highly quality organic products</p>
                             <button class="btn bg-body-primary border-none text-white">Shop Now</button>
                         </div>
@@ -150,11 +150,11 @@
                 </div>
             </div>
             <div id="slide4" class="carousel-item relative w-full">
-                <div class="hero min-h-screen" style="background-image: url(./images/banner4.png);">
+                <div class="hero max-h-screen lg:min-h-screen bg-cover" style="background-image: url(./images/banner4.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-center text-neutral-content">
                         <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <h1 class="mb-5 text-xl lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
                             <p class="mb-8 font-light">We supply highly quality organic products</p>
                             <button class="btn bg-body-primary border-none text-white">Shop Now</button>
                         </div>
@@ -210,9 +210,9 @@
             </div>
 
             <!-- card sections -->
-            <div class="mt-11 mb-11 px-5 flex flex-col lg:flex-row gap-6 items-center justify-center">
+            <div class="mt-11 mb-11 px-7 lg:px-5 flex flex-col lg:flex-row gap-6 items-center justify-center">
                 <!-- card 1 -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-60 lg:w-96 bg-base-100 shadow-xl">
                     <figure class="px-24 pt-10">
                         <img src="/images/fruit6.png" alt="fruit" class="rounded-xl" />
                     </figure>
@@ -272,7 +272,7 @@
                 </div>
 
                 <!-- card 2 -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-60 lg:w-96 bg-base-100 shadow-xl">
                     <figure class="px-24 pt-10">
                         <img src="/images/fruit7.png" alt="fruit" class="rounded-xl" />
                     </figure>
@@ -332,7 +332,7 @@
                 </div>
 
                 <!-- card 3 -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-60 lg:w-96 bg-base-100 shadow-xl">
                     <figure class="px-24 pt-10">
                         <img src="/images/fruit8.png" alt="fruit" class="rounded-xl" />
                     </figure>
@@ -392,7 +392,7 @@
                 </div>
 
                 <!-- card 4 -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card w-60 lg:w-96 bg-base-100 shadow-xl">
                     <figure class="px-24 pt-10">
                         <img src="/images/fruit9.png" alt="fruit" class="rounded-xl" />
                     </figure>
@@ -459,26 +459,26 @@
         </div>
 
         <!-- teams section  -->
-        <section class="p-10 lg:px-56 lg:py-16 mt-5 lg:mt-20 lg:mb-20">
-            <div class="hero min-h-screen rounded-md" style="background-image: url(./images/banner1.png);">
-                <div class="hero-overlay bg-opacity-70 rounded-md"></div>
+        <section class="px-4 py-5 lg:px-56 lg:py-5 mt-5 lg:mt-20 lg:mb-10">
+            <div class="hero min-h-screen lg:max-h-screen lg:h-auto rounded-md" style="background-image: url(./images/banner1.png);">
+                <div class="hero-overlay lg:max-h-screen lg:absolute lg:w-[1070px] bg-opacity-70 rounded-md"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-sm">
-                        <h1 class="text-5xl text-white text-center font-extrabold">Meet the team section</h1>
-                        <p class="text-white font-medium text-center">Contrary to popular belief, is not simply random
+                        <h1 class="text-xl lg:text-5xl text-white text-center font-extrabold">Meet the team section</h1>
+                        <p class="text-white text-sm lg:text-xl font-medium text-center">Contrary to popular belief, is not simply random
                             text. It
                             has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
                             old.</p>
 
-                        <div class="grid grid-cols-4 gap-52 place-items-center justify-center">
+                        <div class="grid grid-rows-4 lg:grid-cols-4 gap-7 lg:gap-52 place-items-center justify-center">
                             <!-- team 1 -->
-                            <div class="card w-96">
+                            <div class="card w-44 lg:w-96">
                                 <figure class="px-10 pt-10">
                                     <img src="/images/member1.png" alt="member" class="rounded-xl h-auto w-auto" />
                                 </figure>
                                 <div class="card-body items-center text-center ">
-                                    <h2 class="card-title text-2xl font-bold text-white text-center">Awlad Hossain</h2>
-                                    <p class="text-base font-medium text-white text-center">Fruits Expert</p>
+                                    <h2 class="card-title text-base lg:text-2xl font-bold text-white text-center">Awlad Hossain</h2>
+                                    <p class="text-sm lg:text-base font-medium text-white text-center">Fruits Expert</p>
                                 </div>
                                 <div class="flex gap-5 justify-center">
                                     <img src="images/icon/facebook 1.svg" alt="">
@@ -488,13 +488,13 @@
                             </div>
 
                             <!-- team 2 -->
-                            <div class="card w-96">
+                            <div class="card w-44 lg:w-96">
                                 <figure class="px-10 pt-10">
                                     <img src="/images/member2.png" alt="member" class="rounded-xl h-auto w-auto" />
                                 </figure>
                                 <div class="card-body items-center text-center ">
-                                    <h2 class="card-title text-2xl font-bold text-white text-center">Safia</h2>
-                                    <p class="text-base font-medium text-white text-center">Fruits Expert</p>
+                                    <h2 class="card-title text-base lg:text-2xl font-bold text-white text-center">Safia</h2>
+                                    <p class="text-sm lg:text-base font-medium text-white text-center">Fruits Expert</p>
                                 </div>
                                 <div class="flex gap-5 justify-center">
                                     <img src="images/icon/facebook 1.svg" alt="">
@@ -504,13 +504,13 @@
                             </div>
 
                             <!-- team 3 -->
-                            <div class="card w-96">
+                            <div class="card w-44 lg:w-96">
                                 <figure class="px-10 pt-10">
                                     <img src="/images/member3.png" alt="member" class="rounded-xl h-auto w-auto" />
                                 </figure>
                                 <div class="card-body items-center text-center ">
-                                    <h2 class="card-title text-2xl font-bold text-white text-center">Rokib Hossain</h2>
-                                    <p class="text-base font-medium text-white text-center">Fruits Expert</p>
+                                    <h2 class="card-title text-base lg:text-2xl font-bold text-white text-center">Rokib Hossain</h2>
+                                    <p class="text-sm lg:text-base font-medium text-white text-center">Fruits Expert</p>
                                 </div>
                                 <div class="flex gap-5 justify-center">
                                     <img src="images/icon/facebook 1.svg" alt="">
@@ -520,13 +520,13 @@
                             </div>
 
                             <!-- team 4 -->
-                            <div class="card w-96">
+                            <div class="card w-44 lg:w-96">
                                 <figure class="px-10 pt-10">
                                     <img src="/images/member4.png" alt="member" class="rounded-xl h-auto w-auto" />
                                 </figure>
                                 <div class="card-body items-center text-center ">
-                                    <h2 class="card-title text-2xl font-bold text-white text-center">Chaity</h2>
-                                    <p class="text-base font-medium text-white text-center">Fruits Expert</p>
+                                    <h2 class="card-title text-base lg:text-2xl font-bold text-white text-center">Chaity</h2>
+                                    <p class="text-sm lg:text-base font-medium text-white text-center">Fruits Expert</p>
                                 </div>
                                 <div class="flex gap-5 justify-center">
                                     <img src="images/icon/facebook 1.svg" alt="">
@@ -542,59 +542,58 @@
         </section>
 
         <!-- choose us -->
-        <section class="mx-60 mb-32">
+        <section class="mx-5 lg:mx-60 mb-20 lg:mb-0">
             <div class="mb-12">
-                <h3 class="text-5xl font-extrabold text-[#121212] text-center mb-6">Why Choose Us</h3>
-                <p class="text-base font-medium text-slate-500 text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin
+                <h3 class="text-xl lg:text-5xl font-extrabold text-[#121212] text-center mb-6">Why Choose Us</h3>
+                <p class="text-sm lg:text-base font-medium text-slate-500 text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin
                     literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class="container grid grid-cols-3 items-center justify-center">
+            <div class="container grid grid-rows-3 lg:grid-cols-3 items-center justify-center lg:mb-0">
                 <div>
-                    <div class="mb-9">
-                        <h3 class="text-2xl font-bold text-[#121212] text-left border-b-2">Dedicated Team</h3>
-                        <p class="text-base font-normal text-slate-500 text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="mb-3 lg:mb-9">
+                        <h3 class="text-lg lg:text-2xl font-bold text-[#121212] text-center lg:text-left border-b-2">Dedicated Team</h3>
+                        <p class="text-xs lg:text-base font-normal text-slate-500 text-center lg:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
-                    <div class="mb-9">
-                        <h3 class="text-2xl font-bold text-[#121212] text-left border-b-2">Fresh is Best</h3>
-                        <p class="text-base font-normal text-slate-500 text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="mb-3 lg:mb-9">
+                        <h3 class="text-lg lg:text-2xl font-bold text-[#121212] text-center lg:text-left border-b-2">Fresh is Best</h3>
+                        <p class="text-xs lg:text-base font-normal text-slate-500 text-center lg:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-[#121212] text-left border-b-2">Gift Certificates</h3>
-                        <p class="text-base font-normal text-slate-500 text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="mb-3">
+                        <h3 class="text-lg lg:text-2xl font-bold text-[#121212] text-center lg:text-left border-b-2">Gift Certificates</h3>
+                        <p class="text-xs lg:text-base font-normal text-slate-500 text-center lg:text-left">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
                 </div>
                 <div>
-                    <img class="justify-center px-8 items-center" src="images/whychoose1.png" alt="">
+                    <img class="justify-center px-4 lg:px-8 items-center" src="images/whychoose1.png" alt="">
                 </div>
 
                 <div>
-                    <div class="mb-9">
-                        <h3 class="text-2xl font-bold text-[#121212] text-right border-b-2">Integrated Supplier</h3>
-                        <p class="text-base font-normal text-slate-500 text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="mb-3 lg:mb-9">
+                        <h3 class="text-lg lg:text-2xl font-bold text-[#121212] text-center lg:text-right border-b-2">Integrated Supplier</h3>
+                        <p class="text-xs lg:text-base font-normal text-slate-500 text-center lg:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
-                    <div class="mb-9">
-                        <h3 class="text-2xl font-bold text-[#121212] text-right border-b-2">Sustainable Practice</h3>
-                        <p class="text-base font-normal text-slate-500 text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="mb-3 lg:mb-9">
+                        <h3 class="text-lg lg:text-2xl font-bold text-[#121212] text-center lg:text-right border-b-2">Sustainable Practice</h3>
+                        <p class="text-xs lg:text-base font-normal text-slate-500 text-center lg:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
-                    <div class="mb-9">
-                        <h3 class="text-2xl font-bold text-[#121212] text-right border-b-2">The Benefits Only</h3>
-                        <p class="text-base font-normal text-slate-500 text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="mb-3">
+                        <h3 class="text-lg lg:text-2xl font-bold text-[#121212] text-center lg:text-right border-b-2">The Benefits Only</h3>
+                        <p class="text-xs lg:text-base font-normal text-slate-500 text-center lg:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
                 </div>
             </div>
         </section>
-
-
+    </div>
     </main>
 
     <!-- footer here  -->
-    <footer class="footer footer-center p-10 bg-[#121212] text-white">
+    <footer class="footer footer-center py-5 px-0 lg:p-10 bg-[#121212] text-white">
         <div>
-            <a class="btn btn-ghost normal-case text-xl lg:text-white ml-32 mr-32"><img class="w-[50px] h-[50px]"
+            <a class="btn btn-ghost normal-case text-xs lg:text-xl lg:text-white ml-32 mr-32"><img class="w-[20px] lg:w-[50px] w-[20px] lg:h-[50px]"
                     src="images/logo.png" alt="">Fruit Burst</a>
         </div>
         <div>
-            <ul class="flex justify-around text-center gap-5">
+            <ul class="grid grid-cols-3 lg:flex lg:flex-row lg:justify-around text-center gap-5">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
